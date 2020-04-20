@@ -1,0 +1,76 @@
+
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Demo version modal -->
+<div ng-include="'templates/modals/demo-version.html'"></div>
+
+
+
+<div class="grid-block section">
+	<!-- Main content -->
+	<div class="vertical grid-block content-wide section">
+		<!-- Title -->
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left">
+				<h1>Könyvtáraim</h1>
+				<p class='no-margin'>Itt találhatod az általad követett és létrehozott könyvtárakat.</p>
+			</div>
+			<div class="right">
+
+				<a class="primary button no-margin" zf-open="demo-version"></span><i class="fa fa-plus"></i>Új könyvtár létrehozása</a>
+			</div>
+		</div>
+		
+		
+		<!-- Libraries -->
+		<div ng-repeat="class in classes" class="card">
+			<div class="card-divider title-bar">	
+					<span class='title left'><a>Török Ignác Gimnázium</a> / {{class.name}}</span>
+					<ul class='right navigation'>
+						<li>{{class.courses.length}} könyv</li>
+						<li>28 feliratkozó</li>
+					</ul>
+				</div>
+
+				<!-- Books -->
+				<div class="grid-block grid-block--padding-3 wrap">
+					<div ng-repeat='course in class.courses track by $index' class='course-avatar'>
+						<a href="#/course/{{course.id}}">
+							<img src="img/course.png" alt="Course">
+							<span class="title">{{course.name}}</span>
+							<span>{{course.chapters.length}} fejezet - 3 teszt</span>
+							<!-- <span>{{course.chapters.length}} fejezet</span>
+							<span>0/3 Teszt</span> -->
+						</a>
+					</div>
+					<div class="course-avatar">
+						<a ui-sref="cafe/{{class.id}}">
+							<img src="img/cafe.png" alt="Course">
+							<span class="title">Közösségi tér</span>
+							<span>3 új hozzászólás</span>
+							<!-- <span>Nincs új hozzászólás</span> -->
+						</a>
+					</div>
+				</div>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div class="vertical grid-block medium-4 section">
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left">
+				<h1>Bölcsesség páfrány</h1>
+				<p>Öntözd minden nap egy újabb teszt kitöltésével!</p>
+			</div>
+		</div>
+		<p>4. szint: Törekvő Tuskó</p>
+		<p>Ma még nem locsoltál! Még 5 nap a következő szintig!</p>
+		<a href="" class="button warning">Folytatás: az ipari forradalom</a>
+		<p class="meta">Alma Mater - gaboratorium - 2016</p>
+	</div>
+
+</div>
+
+
+		

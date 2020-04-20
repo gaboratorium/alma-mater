@@ -1,0 +1,129 @@
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Chapter with text, multimedia elements, and test -->
+<div class='chapter content' animation-in="fadeIn">
+	<div class="grid-block">
+		<div class="grid-content chapter">
+
+			<!-- Library navigation -->
+			<div ng-include="'templates/navigation/navigation-library.html'"></div>
+			
+			<!-- Chapter header -->
+			<div class='header' style="background-image: url({{chapter.cover}})">
+				<div class='gradient'></div>
+			</div>
+
+			<div class="section">
+
+				<!-- Section: headline -->
+				<section class="headline" id="title">
+					<h1 class='serif'>{{chapter.title}}</h1>
+					<h2 class='serif'>{{chapter.definition}}</h2>
+					<ul>
+						<li class='label' ng-repeat="tag in chapter.tags">{{tag}}</li>
+					</ul>
+				</section>
+
+				<!-- Section: text -->
+				<section class='text' id="text">
+					<p class="serif warning">Please note! Currently you are reading a dummy articles whose purpose is only demonstration!</p>
+					<p ng-repeat='paragraph in chapter.body track by $index' class='serif'>{{paragraph}}</p>	
+				</section>
+			</div>
+
+			<hr class="show-for-small-only">
+
+				<!-- Section: video -->
+				<section class='video' id="video">
+					<div>
+						<h1 class='serif'>{{chapter.video_title}}
+						<a href="" ng-show="video" ng-click="video = false">Switch to reading view</a>
+						<a href="" ng-show="!video" ng-click="video = true">Switch to video view</a>
+						</h1>
+						
+
+					<!-- 	<ul class="button-group segmented">
+							<li ng-click="video=true"><a class='active' click-to-activate='watch-or-read'>Watch 'The Punic Wars'</a></li>
+							<li ng-click="video=false"><a click-to-activate='watch-or-read'>Read 'The Punic Wars'</a></li>
+						</ul> -->
+						
+						<div ng-show="video" ng-if="chapter" class='video-frame'>
+							<ng-youtube-embed 
+							    url="link" 
+							    autoplay="false"
+							    color="white"
+							    width= "100%"
+							    height="495px"
+							    fs="false"
+							    start="13"
+							    controls="true"
+							    disablekb="true"
+							    ccloadpolicy="false"
+							    ivloadpolicy="false"
+							    rel="false"
+							    showinfo="false"
+							    theme="light">
+							</ng-youtube-embed>
+						</div>
+						
+
+
+						<div ng-show="!video" class='video-script'>
+					
+								<p class='serif' ng-repeat="paragraph in chapter.video_body">{{paragraph}}</p>
+
+							
+						</div>
+					</div>
+				</section>
+			
+			<hr class="show-for-small-only">
+
+			<div class="section">
+				<!-- Chapter gallery -->
+				<section class='gallery' id="gallery">
+						<h1 class='serif'>{{chapter.gallery_title}}</h1>
+						<div ng-repeat="pic in chapter.gallery">
+							<div  style="background-image: url('{{pic.url}}')" class="image"></div>
+							<p class="serif">{{pic.caption}}</p>
+						</div>
+						
+					
+
+				</section>
+			</div>
+
+			<hr class="show-for-small-only">
+				<!-- Chapter test -->
+				<section class='test' id="test">
+
+					<!-- Test card -->
+					<div class="test-card card">
+						<i class="fa fa-trophy fa-fw"></i>
+						
+						<!-- Strength bar -->
+						
+
+						<!-- Question -->
+						<h2>{{currentQuestion.question}}</h2>
+						<!-- Answers -->
+						<div class='answers'>
+							<a ng-click="giveAnswer(answer.isCorrect)"  class="hollow button" ng-class="{'correct': check && answer.isCorrect, 'incorrect': check && !answer.isCorrect}" ng-repeat="answer in randomAnswers | orderBy: 'rank'">
+								<span>{{answer.answer}}</span>
+							</a>
+						</div>
+						<div class="strength-bar">
+							<div strength-progress class='strength'></div>
+						</div>
+
+						<a ng-click="resetTest()">
+							<i class="fa fa-repeat"></i>
+						</a>
+					</div>
+					<p>{{chapters.tests}}</p>
+				</section>
+
+		</div>
+	</div>
+	<!-- <div class="white-gradient"></div> -->
+</div>

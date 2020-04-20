@@ -1,0 +1,22 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Elliot John Gleave",
+			"nationality": "Hungary",
+			"reg_date": "2016.04.17.",
+			"plant": "Level 4: Chump champ",
+			"following_libraries": [1,2],
+			"created_libraries": [3]
+		},
+		{
+			"id": 2,
+			"name": "Saint Petersen High School",
+			"nationality": "Unknown",
+			"reg_date": "2016.03.19.",
+			"plant": "Level 8: Sedulous Salvia",
+			"following_libraries": [],
+			"created_libraries": [1,2]
+		}
+	]
+}

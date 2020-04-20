@@ -1,0 +1,42 @@
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Body -->
+<div class="background-white full-height">
+	<!-- Library navigation -->	
+	<div ng-include="'templates/navigation/navigation-library.html'"></div>
+	<div class="grid-block align-center section">
+		<div class="grid-block vertical content-wide section">
+			<!-- Title -->
+			<div class="text-align-center">
+				<span class="ion-trophy title" style="color: #DBB400"></span>
+				<h1 class='serif'>{{book.name}}</h1>
+				<h2>Test · {{currentTest.questions.length}} questions</h2>
+			</div>
+			<!-- Test Card -->
+
+			<hr>
+			
+			<div class="test-card card" style="max-width: 100%">
+				<!-- Question -->
+				<h2>{{currentQuestion.question}}</h2>
+				<!-- Answers -->
+				<div class='answers'>
+					<a ng-click="giveAnswer(answer.isCorrect)"  class="hollow button" ng-class="{'correct': check && answer.isCorrect, 'incorrect': check && !answer.isCorrect}" ng-repeat="answer in randomAnswers | orderBy: 'rank'">
+						<span>{{answer.answer}}</span>
+					</a>
+				</div>
+				<!-- Strength bar -->
+				<div class="strength-bar">
+					<div strength-progress class='strength'></div>
+				</div>
+				<!-- Reset Button -->
+				<div class="grid-block align-center" style="overflow: hidden">
+				<a ng-click="resetTest()" style="margin-bottom: 3rem;">
+					<span class="ion-refresh retry"></span>
+				</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+

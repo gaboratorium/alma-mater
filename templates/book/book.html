@@ -1,0 +1,68 @@
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Demo version modal -->
+<div ng-include="'templates/modals/discourse.html'"></div>
+
+<!-- Body -->
+<div class="background-white full-height">
+
+	<!-- Library navigation -->
+	<div ng-include="'templates/navigation/navigation-library.html'"></div>
+
+	<div class="grid-block align-center section">
+		<div class="grid-block vertical content-wide section">
+
+				<div class="text-align-center">
+					<div class="grid-block align-center">
+						<div class="book-avatar">
+							<img src="img/book.png" alt="book">
+						</div>
+					</div>
+					<h1 class='serif'>{{book.name}}</h1>
+					<h2>{{book.chapters.length}} chapters</h2>
+				</div>
+
+				<ul class='chapters margin-bottom'>
+					<li ng-repeat="chapter in book.chapters" >
+						<a ui-sref="chapter({library_id: library.id, book_id: book.id, chapter_id: chapter.id})" class='title-bar'>
+							<div class="left title">
+								{{$index}}. {{chapter.title}}
+							</div>
+							<div class="right">
+								<span class="ion-android-checkbox-outline"></span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a ui-sref='test({library_id: library.id, book_id: book.id})' class="test title-bar">
+						<div class="left title">
+							<i class="fa fa-trophy fa-fw"></i>Test
+						</div>
+						<div class="right">
+							<span class="ion-android-checkbox-outline"></span>
+						</div>
+						</a>
+					</li>
+				</ul>
+
+				<div class="grid-block vertical" ng-hide="library.id==0">
+					<div class="grid-block align-center">
+						<a class="hollow button no-margin" zf-open="discourse"><span class="ion-chatbubble-working"></span>New comment</a>
+					</div>
+					<div class="grid-block text-align-center align-center section">
+						<p>Before you write a new comment, make sure that the topic has not been discussed yet.</p>
+					</div>
+				</div>
+
+				<div class="grid-block vertical" ng-show="library.id==0">
+					<div class="grid-block align-center">
+						<a class="hollow button no-margin" zf-open="demo-version"><span class="ion-plus-round"></span>Add to own library</a>
+					</div>
+					<div class="grid-block text-align-center align-center section">
+						<p>You can create your own libraries, which you can share with others.</p>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>

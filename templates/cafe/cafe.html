@@ -1,0 +1,95 @@
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Demo version modal -->
+<div ng-include="'templates/modals/discourse.html'"></div>
+
+<!-- Body -->
+<div class="background-white full-height">
+
+	<!-- Library Navigation -->
+	<div ng-include="'templates/navigation/navigation-library.html'"></div>
+
+	<div class="grid-block align-center section">
+		<div class="grid-block vertical content-wide section">
+
+				<div class="text-align-center">
+					<div class="grid-block align-center">
+						<div class="book-avatar">
+							<img src="img/cafe.png" alt="Café">
+
+						</div>
+					</div>
+					<h1 class='serif'>{{library.name}} Café</h1>
+					<h2>{{library.books.length + 2}} discussions · 22 subscriber</h2>
+				</div>
+
+
+				<ul class='chapters margin-bottom'>
+					<li zf-open="demo-version">
+						<a class='title-bar' zf-open="discourse">
+							<div class="left title">
+								<i class="fa fa-commenting fa-fw"></i>General questions and announcements
+							</div>
+							<div class="right">
+								<span class="alert badge">1</span>
+							</div>
+						</a>
+					</li>
+					<li zf-open="demo-version">
+						<a class='title-bar' zf-open="discourse">
+							<div class="left title">
+								<i class="fa fa-commenting fa-fw"></i>Shared documents
+							</div>
+							<div class="right">
+								<span class="alert badge">2</span>
+							</div>
+						</a>
+					</li>
+					<li ng-repeat="book in library.books track by $index" >
+						<a zf-open="discourse" class='title-bar wrap'>
+							<div class="left title wrap">
+								<i class="fa fa-commenting fa-fw"></i>Book: {{book.name}}
+							</div>
+							<div class="right">
+								<span class="hide-for-small-only">0 comments</span>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+				<div class="grid-block align-center">
+					<a class="hollow button no-margin" zf-open="discourse"><i class="fa fa-plus"></i>Create new discussion</a>
+				</div>
+				<div class="grid-block text-align-center align-center section">
+					<p>Before you create a new discussion, make sure that the topic has not been discussed yet.</p>
+				</div>
+
+
+				<div class="card">
+					<div class="title-bar">
+						<div class="title left">
+							Bookshelf
+						</div>
+						<a zf-open="discourse" class="right"><span ng-hide="library.owner.id==1">Help</span></a>
+						<span class="right" ng-show="library.owner.id==1"><a zf-open="demo-version">Új könyv hozzáadása</a></span>
+					</div>
+
+					<div class="grid-block grid-block--padding-3 wrap">
+						<div ng-repeat='book in library.books track by $index' class='book-avatar'>
+							<a ui-sref="book({library_id: library.id, book_id: book.id})">
+								<img src="img/book.png" alt="{{book.name}}">
+								<span class="title">{{book.name}}</span>
+								<span>{{book.chapters.length}} chapters</span>
+								<!-- <span>{{course.chapters.length}} fejezet</span>
+								<span>0/3 Teszt</span> -->
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-block text-align-center align-center">
+					<p>Currently there is nothing here.</p>
+				</div>
+		</div>
+	</div>
+</div>

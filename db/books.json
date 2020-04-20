@@ -1,0 +1,19 @@
+{
+	"books":[
+		{
+			"id":1,
+			"name":"History of Hungary (Hungarian)",
+			"chapters":[3,4,5]
+		},
+		{
+			"id":2,
+			"name":"Example textbook 1. (English)",
+			"chapters":[1,2]
+		},
+		{
+			"id":3,
+			"name":"Example textbook 2. (English)",
+			"chapters":[1,2]
+		}
+	]
+}

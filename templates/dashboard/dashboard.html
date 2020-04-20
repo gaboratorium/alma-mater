@@ -1,0 +1,63 @@
+
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Modal -->
+<div ng-include="'templates/modals/new-library.html'"></div>
+
+<div class="grid-block section wrap">
+
+	<!-- Main content -->
+	<div class="vertical grid-block section">
+		<!-- Title -->
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left title">
+				<h1>My libraries</h1>
+				<p class='no-margin hide-for-small-only'>Here you can find libraries followed and created by you.</p>
+			</div>
+			<div class="right">
+
+				<a class="primary button no-margin" zf-open="new-library"></span><span class="ion-plus-round"></span>New library</a>
+			</div>
+		</div>
+
+		<hr class='no-margin show-for-small-only margin-bottom'>
+		<p class='show-for-small-only text-align-center'>Here you can find libraries followed and created by you.</p>
+
+
+		<!-- Libraries -->
+		<div ng-repeat="library in libraries" class="card">
+			<div class="card-divider title-bar">
+					<span class='left'><a ui-sref="profile({id: library.owner.id})">{{library.owner.name}}</a> / {{library.name}}</span>
+					<ul class='right navigation'>
+						<li>{{library.books.length}} book<span ng-if="library.books.length>1">s</span></li>
+					</ul>
+				</div>
+
+				<!-- Books -->
+				<div class="grid-block grid-block--padding-3 wrap align-center-on-small">
+					<div ng-repeat='book in library.books track by $index' class='book-avatar'>
+						<a ui-sref="book({library_id: library.id, book_id: book.id})">
+							<img src="img/book.png" alt="{{book.name}}">
+							<span class="title">{{book.name}}</span>
+							<span>{{book.chapters.length}} chapter<span ng-if="book.chapters.length>1" style="display: inline;">s</span>
+							<!-- <span>{{course.chapters.length}} fejezet</span>
+							<span>0/3 Teszt</span> -->
+						</a>
+					</div>
+					<div class="book-avatar">
+						<a ui-sref="cafe({id: library.id})">
+							<img src="img/cafe.png" alt="Café">
+							<span class="title">Café</span>
+							<span>{{library.books.length+2}} discussions</span>
+							<!-- <span>Nincs új hozzászólás</span> -->
+						</a>
+					</div>
+				</div>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div ng-include="'templates/sidebar/sidebar.html'" class='sidebar-wide'></div>
+
+</div>

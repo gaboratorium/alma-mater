@@ -1,0 +1,59 @@
+
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Modal -->
+<div ng-include="'templates/modals/upload.html'"></div>
+
+<div class="grid-block section wrap">
+
+	<!-- Main content -->
+	<div class="vertical grid-block section">
+		<!-- Title -->
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left title">
+				<h1>Share</h1>
+				<p class='no-margin hide-for-small-only'>Share documents and files in your libraries.</p>
+			</div>
+			<div class="right">
+
+				<a class="primary button no-margin" zf-open="upload"></span><span class="ion-upload"></span>New document</a>
+			</div>
+		</div>
+
+		<hr class='no-margin show-for-small-only margin-bottom'>
+		<p class='margin-bottom show-for-small-only text-align-center'>Share documents and files in your libraries.</p>
+		
+		
+		<!-- Libraries -->
+		<div class="card">
+			<!-- <div class="card-divider title-bar">	
+					<span class='left'>Mely könyvtárakban kívánod megosztani?</span>
+					<ul class='right navigation'>
+						<li>Súgó</li>
+					</ul>
+			</div> -->
+
+			<!-- Books -->
+			<div class="grid-block grid-block--padding-3 wrap align-center-on-small" >
+
+	
+				<div class="book-avatar" ng-repeat="library in libraries">
+					<a ui-sref="cafe({id: library.id})">
+						<img src="img/library.png" alt="Course">
+						<span class="title">{{library.name}}</span>
+						<a ui-sref="profile({id: library.owner.id})" class='author'>{{library.owner.name}}</a>
+						<a class="success hollow button" gb-checkbox>Select</a>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div ng-include="'templates/sidebar/sidebar.html'" class='sidebar-wide small-12'></div>
+
+</div>
+
+
+		

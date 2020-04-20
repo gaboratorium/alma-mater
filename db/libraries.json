@@ -1,0 +1,22 @@
+{
+	"libraries":[
+		{
+			"id":1,
+			"name":"10.A",
+			"books":[1,2],
+			"owner": 2
+		},
+		{
+			"id":2,
+			"name": "History special class",
+			"books":[3],
+			"owner": 2
+		},
+		{
+			"id":3,
+			"name": "Mathematics special class",
+			"books":[2,4,6,8],
+			"owner": 1
+		}
+	]
+}

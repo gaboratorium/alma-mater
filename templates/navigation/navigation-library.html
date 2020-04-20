@@ -1,0 +1,22 @@
+<div class="title-bar title-bar--library">
+		<div class="left title show-for-large">
+			<a ui-sref="profile({id: library.owner.id})">{{library.owner.name}}</a> / 
+			<a ui-sref="cafe({id: library.id})">{{library.name}}</a>
+			<a ui-sref="cafe({id: library.id})" inline-on-state="cafe" > / Café</a>
+			<a ui-sref="book({library_id: library.id, book_id: book.id})" inline-on-state="chapter" > / {{book.name}}</a>
+			<a ui-sref="chapter({library_id: library.id, book_id: book.id, chapter_id: chapter.id})" inline-on-state="chapter"> / {{chapter.title}}</a>
+		</div>
+		<div class="left hide-for-large">
+			<a ui-sref="profile({id: library.owner.id})" inline-on-state="book"><span class="ion-ios-arrow-back"></span>{{library.owner.name}}</a>
+			<a ui-sref="profile({id: library.owner.id})" inline-on-state="cafe"><span class="ion-ios-arrow-back"></span>{{library.owner.name}}</a>
+			<a ui-sref="profile({id: library.owner.id})" inline-on-state="test"><span class="ion-ios-arrow-back"></span>{{library.owner.name}}</a>
+			<a ui-sref="book({library_id: library.id, book_id: book.id})" inline-on-state="chapter"><span class="ion-ios-arrow-back"></span>{{book.name}}</a>
+			
+			<!-- <a href=""><span class="ion-ios-arrow-back"></span>{{library.owner.name}}</a> -->
+		</div>
+
+		<!-- <div class="right">
+			<span class="ion-android-bookmark"></span>
+		</div> -->
+
+</div>

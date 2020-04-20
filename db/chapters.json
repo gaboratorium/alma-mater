@@ -1,0 +1,978 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Example chapter 1.: Red orange",
+      "cover": "http://www.dogtownmedia.com/wp-content/uploads/material-design-android-app-developer.jpg",
+      "definition": "This is an example chapter to demonstrate the structure of a chapter.",
+      "tags": [
+        "example",
+        "chapter",
+        "dummy",
+        "Alma Mater",
+        "e-textbook"
+      ],
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur at velit at venenatis. Cras sagittis nisl a est molestie dignissim. Morbi facilisis in urna quis tempor. Nullam tempor dictum lacus, vitae porttitor elit auctor vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae tortor id mi pulvinar mattis quis vitae felis. Proin interdum mi ipsum, a tristique massa dictum id. Proin id tortor auctor, dignissim nisl quis, congue velit. Aenean vitae urna purus. Etiam id volutpat lorem. Nam rutrum aliquet augue, id interdum felis iaculis eget. Ut eget nunc enim. Sed imperdiet vitae ipsum a finibus. Maecenas eleifend posuere mi, ac efficitur odio tempor a. Nam nulla lacus, aliquet a fermentum vel, accumsan ut metus.",
+        "Morbi sed tellus lorem. Maecenas imperdiet, orci sit amet porttitor consectetur, eros elit fringilla est, vel porta libero ligula at massa. Nullam ut neque eget sem pellentesque rhoncus. Vivamus tempor rhoncus tortor, sed finibus lectus consectetur eu. Nam venenatis justo quam, vitae semper odio consequat in. Maecenas orci enim, dictum a interdum feugiat, sollicitudin quis ligula. Ut in nunc eget ex placerat pellentesque at tempus ipsum. Nulla a dui risus. Cras justo risus, placerat et orci a, maximus eleifend est. Donec ac urna nulla. Sed et venenatis dolor, in rhoncus odio. Vestibulum vel arcu non neque faucibus faucibus a sit amet ipsum. Vivamus finibus justo in fermentum ultricies.",
+        "Nunc pulvinar lacus quis tellus ultrices lacinia. Proin maximus velit augue, nec facilisis sapien consequat feugiat. Mauris malesuada venenatis tortor, a auctor nisl molestie quis. Aenean sit amet risus eu urna imperdiet imperdiet. Proin convallis felis suscipit ultrices gravida. Praesent volutpat dictum tellus, at finibus lectus hendrerit eget. Vestibulum nisi tortor, dapibus et tellus et, faucibus blandit purus. Proin iaculis, lacus pellentesque laoreet lobortis, quam leo auctor augue, sed semper tellus risus non lacus. Morbi dapibus laoreet erat. Vivamus tincidunt efficitur ex interdum mollis. Mauris pretium mi sed mi condimentum, ut ullamcorper justo lacinia. Quisque molestie tortor sit amet magna facilisis rhoncus eget vel magna. Quisque diam diam, hendrerit sed laoreet vel, rutrum nec ligula. Donec lacinia, urna vitae fermentum finibus, nunc nulla iaculis quam, nec accumsan sem neque a dui. Phasellus elementum nisi vitae est venenatis tempus."
+      ],
+      "video_title": "A video belongs to every chapter. However, students can decide to read the content of it instead.",
+      "video": "https://www.youtube.com/watch?v=ZL4yYHdDSWs",
+      "video_body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur at velit at venenatis. Cras sagittis nisl a est molestie dignissim. Morbi facilisis in urna quis tempor. Nullam tempor dictum lacus, vitae porttitor elit auctor vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae tortor id mi pulvinar mattis quis vitae felis. Proin interdum mi ipsum, a tristique massa dictum id. Proin id tortor auctor, dignissim nisl quis, congue velit. Aenean vitae urna purus. Etiam id volutpat lorem. Nam rutrum aliquet augue, id interdum felis iaculis eget. Ut eget nunc enim. Sed imperdiet vitae ipsum a finibus. Maecenas eleifend posuere mi, ac efficitur odio tempor a. Nam nulla lacus, aliquet a fermentum vel, accumsan ut metus.",
+        "Morbi sed tellus lorem. Maecenas imperdiet, orci sit amet porttitor consectetur, eros elit fringilla est, vel porta libero ligula at massa. Nullam ut neque eget sem pellentesque rhoncus. Vivamus tempor rhoncus tortor, sed finibus lectus consectetur eu. Nam venenatis justo quam, vitae semper odio consequat in. Maecenas orci enim, dictum a interdum feugiat, sollicitudin quis ligula. Ut in nunc eget ex placerat pellentesque at tempus ipsum. Nulla a dui risus. Cras justo risus, placerat et orci a, maximus eleifend est. Donec ac urna nulla. Sed et venenatis dolor, in rhoncus odio. Vestibulum vel arcu non neque faucibus faucibus a sit amet ipsum. Vivamus finibus justo in fermentum ultricies."
+      ],
+      "gallery_title": "A gallery belongs to every chapter which may contain various multimedia elements.",
+      "gallery": [
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ratione, molestias, quod quisquam aliquid est fugit perspiciatis ipsa dolores inventore at in consequuntur voluptate doloremque eius asperiores. Placeat, neque, ea.",
+          "url": "http://assets.materialup.com/uploads/54ab9316-6e9c-4b00-9091-56facd71b888/telescope.jpg"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at corporis est voluptas, autem nostrum ad quo quia cupiditate dolore. Dolore beatae, porro quod aliquam officia. Recusandae, ratione earum atque.",
+          "url": "https://d13yacurqjgara.cloudfront.net/users/230193/screenshots/1793458/google-dribbble.jpg"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit voluptatem laudantium tempore dolore facere, reprehenderit vero fugiat ullam aspernatur, nostrum sapiente neque molestias error hic, cumque numquam sint possimus.",
+          "url": "https://s-media-cache-ak0.pinimg.com/736x/6f/06/22/6f0622959a6dfc3220bc73802c3de958.jpg"
+        }
+      ],
+      "tests": [
+        {
+          "title": "Test",
+          "questions": [
+            {
+              "question": "Example question #1",
+              "answers": [
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "Example question #1",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #1",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #4",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #5",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #6",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #7",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Example chapter 1.: Blue sofa",
+      "cover": "http://assets.materialup.com/uploads/9c7162f4-50ca-451d-9f6a-f9afafb280fd/t8xUHoY.png",
+      "definition": "This is an example chapter to demonstrate the structure of a chapter.",
+      "tags": [
+        "example",
+        "chapter",
+        "dummy",
+        "Alma Mater",
+        "e-textbook"
+      ],
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur at velit at venenatis. Cras sagittis nisl a est molestie dignissim. Morbi facilisis in urna quis tempor. Nullam tempor dictum lacus, vitae porttitor elit auctor vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae tortor id mi pulvinar mattis quis vitae felis. Proin interdum mi ipsum, a tristique massa dictum id. Proin id tortor auctor, dignissim nisl quis, congue velit. Aenean vitae urna purus. Etiam id volutpat lorem. Nam rutrum aliquet augue, id interdum felis iaculis eget. Ut eget nunc enim. Sed imperdiet vitae ipsum a finibus. Maecenas eleifend posuere mi, ac efficitur odio tempor a. Nam nulla lacus, aliquet a fermentum vel, accumsan ut metus.",
+        "Morbi sed tellus lorem. Maecenas imperdiet, orci sit amet porttitor consectetur, eros elit fringilla est, vel porta libero ligula at massa. Nullam ut neque eget sem pellentesque rhoncus. Vivamus tempor rhoncus tortor, sed finibus lectus consectetur eu. Nam venenatis justo quam, vitae semper odio consequat in. Maecenas orci enim, dictum a interdum feugiat, sollicitudin quis ligula. Ut in nunc eget ex placerat pellentesque at tempus ipsum. Nulla a dui risus. Cras justo risus, placerat et orci a, maximus eleifend est. Donec ac urna nulla. Sed et venenatis dolor, in rhoncus odio. Vestibulum vel arcu non neque faucibus faucibus a sit amet ipsum. Vivamus finibus justo in fermentum ultricies.",
+        "Nunc pulvinar lacus quis tellus ultrices lacinia. Proin maximus velit augue, nec facilisis sapien consequat feugiat. Mauris malesuada venenatis tortor, a auctor nisl molestie quis. Aenean sit amet risus eu urna imperdiet imperdiet. Proin convallis felis suscipit ultrices gravida. Praesent volutpat dictum tellus, at finibus lectus hendrerit eget. Vestibulum nisi tortor, dapibus et tellus et, faucibus blandit purus. Proin iaculis, lacus pellentesque laoreet lobortis, quam leo auctor augue, sed semper tellus risus non lacus. Morbi dapibus laoreet erat. Vivamus tincidunt efficitur ex interdum mollis. Mauris pretium mi sed mi condimentum, ut ullamcorper justo lacinia. Quisque molestie tortor sit amet magna facilisis rhoncus eget vel magna. Quisque diam diam, hendrerit sed laoreet vel, rutrum nec ligula. Donec lacinia, urna vitae fermentum finibus, nunc nulla iaculis quam, nec accumsan sem neque a dui. Phasellus elementum nisi vitae est venenatis tempus."
+      ],
+      "video_title": "A video belongs to every chapter. However, students can decide to read the content of it instead.",
+      "video": "https://www.youtube.com/watch?v=X9otDixAtFw",
+      "video_body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur at velit at venenatis. Cras sagittis nisl a est molestie dignissim. Morbi facilisis in urna quis tempor. Nullam tempor dictum lacus, vitae porttitor elit auctor vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae tortor id mi pulvinar mattis quis vitae felis. Proin interdum mi ipsum, a tristique massa dictum id. Proin id tortor auctor, dignissim nisl quis, congue velit. Aenean vitae urna purus. Etiam id volutpat lorem. Nam rutrum aliquet augue, id interdum felis iaculis eget. Ut eget nunc enim. Sed imperdiet vitae ipsum a finibus. Maecenas eleifend posuere mi, ac efficitur odio tempor a. Nam nulla lacus, aliquet a fermentum vel, accumsan ut metus.",
+        "Morbi sed tellus lorem. Maecenas imperdiet, orci sit amet porttitor consectetur, eros elit fringilla est, vel porta libero ligula at massa. Nullam ut neque eget sem pellentesque rhoncus. Vivamus tempor rhoncus tortor, sed finibus lectus consectetur eu. Nam venenatis justo quam, vitae semper odio consequat in. Maecenas orci enim, dictum a interdum feugiat, sollicitudin quis ligula. Ut in nunc eget ex placerat pellentesque at tempus ipsum. Nulla a dui risus. Cras justo risus, placerat et orci a, maximus eleifend est. Donec ac urna nulla. Sed et venenatis dolor, in rhoncus odio. Vestibulum vel arcu non neque faucibus faucibus a sit amet ipsum. Vivamus finibus justo in fermentum ultricies."
+      ],
+      "gallery_title": "A gallery belongs to every chapter which may contain various multimedia elements.",
+      "gallery": [
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ratione, molestias, quod quisquam aliquid est fugit perspiciatis ipsa dolores inventore at in consequuntur voluptate doloremque eius asperiores. Placeat, neque, ea.",
+          "url": "http://assets.materialup.com/uploads/54ab9316-6e9c-4b00-9091-56facd71b888/telescope.jpg"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio at corporis est voluptas, autem nostrum ad quo quia cupiditate dolore. Dolore beatae, porro quod aliquam officia. Recusandae, ratione earum atque.",
+          "url": "https://d13yacurqjgara.cloudfront.net/users/230193/screenshots/1793458/google-dribbble.jpg"
+        },
+        {
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit voluptatem laudantium tempore dolore facere, reprehenderit vero fugiat ullam aspernatur, nostrum sapiente neque molestias error hic, cumque numquam sint possimus.",
+          "url": "https://s-media-cache-ak0.pinimg.com/736x/6f/06/22/6f0622959a6dfc3220bc73802c3de958.jpg"
+        }
+      ],
+      "tests": [
+        {
+          "title": "Teszt",
+          "questions": [
+            {
+              "question": "Example question #1",
+              "answers": [
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "Example question #2",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #3",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #4",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #5",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #6",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Example question #7",
+              "answers": [
+                {
+                  "answer": "Correct",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Wrong",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "1848–49-es forradalom és szabadságharc",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Than_tapiobicskei_utk%C3%B6zet2_1849_aprilis_4.jpg",
+      "definition": "Magyarország újkori történetének egyik legmeghatározóbb eseménye, mely reformjaival megínditotta a polgári átalakulást",
+      "tags": [
+        "Habsburg Birodalom",
+        "1848. március 15",
+        "áprilisi törvények",
+        "Görgey Artúr",
+        "Jobbágyfelszabadítás",
+        "Hungarian"
+      ],
+      "body": [
+        "Magyarország a török kiűzése és a Rákóczi-szabadságharc elbukása után erősen korlátozott, mégis meglévő önállóságot élvezve volt része a Habsburg Birodalomnak. Az 1723-ban elfogadott Pragmatica sanctio törvényesen is rendezte a Habsburg uralkodó és a magyarországi rendek viszonyát. Az egyetlen komolyabb további előrelépést ezen a területen 1848-ig az 1791. évi X. törvénycikk[6] jelentette, amely biztosította az ország jogi függetlenségét a birodalom többi tagállamával szemben.",
+        "Az 1847 novemberében Pozsonyban összeült – később utolsónak bizonyult – rendi országgyűlésen a reformpárti erők által létrehozott Ellenzéki Kör és a „fontolva haladókat” tömörítő Konzervatív Párt lépett föl határozott programmal. Utóbbiak jelentős mértékben bírták a bécsi udvari körök támogatását is. A téli hónapok során patthelyzet alakult ki, ebbe a helyzetbe hozott döntő fordulatot a február 22-ei párizsi forradalom híre. Kossuth Lajos március 3-án elmondott beszéde fogalmazta meg programszerűen az ellenzék követeléseit: független magyar bank felállítását, a honvédelmi rendszer átalakítását, jobbágyfelszabadítást, közteherviselést, népképviseleti parlamentet és magyar független felelős nemzeti kormányt.",
+        "A végső lökést a reformok ügyében végül 1848. március 15-e jelentette, amikor a pesti radikális ifjúság vér nélkül érvényt szerzett az ún. 12 pontnak.",
+        "A honvéd seregek tavaszi hadjáratának két fontos előzménye volt: a császári csapatok kiűzése Erdélyből és a magyarországi csapatok összevonása. Erdély felmentése Bem József tábornok nevéhez köthető, aki rövid idő alatt rendet teremtett az erdélyi csapatoknál, majd decemberben megkezdte a harcokat és márciusra ki is űzte Puchner és Urbán csapatait Erdélyből. Erdély felmentésével a tavaszi hadjáratnak csak egy frontra kellett összpontosítania. A csapatösszevonás nehézkesen, de végül sikerült Tiszafüred környékén. A kápolnai csatában (február 26–27) vesztes főparancsnok, Henryk Dembiński szerepét az elégedetlenség miatt előbb Vetter Antal ideiglenesen kinevezett fővezér (március 1.), majd Görgey Artúr (március 31.) vette át. A rendelkezésére álló I. II. III. és VII. hadtest körülbelül azonos számú gyalogost és lovast foglalt magába, mint Windisch-Grätz serege, azonban a tüzérség csekélyebb számú és fejletlenebb volt mint a császári csapatoké.",
+        "Görgey haditerve a császári csapatok bekerítésére irányult, melyet átkaroló hadművelettel kívánt elérni. A bekerítés egy elterelő hadművelet sikerességétől függött, melyet a VII. hadtestnek a fősereg látszatát keltve Hatvan környékén kellett végrehajtania. Eközben az I. II. és III. hadtesteknek kellett a Jászságon át megkerülnie az ellenséges sereget. A terv szerint a négy hadtestnek április 7-én egyesült támadást kellett intéznie a császári csapatok ellen, és siker esetén a főerőket elvágták volna Pesttől. A haditerv azonban kockázatos volt, hiszen amennyiben Windisch-Grätz tudomására jut, hogy a Hatvan környéki csapatok nem a fő sereg, könnyen szétzúzhatja azokat és bekerítheti a magyar csapatokat, illetve Debrecen ellen vonulhat, komolyabb ellenállás nélkül. A tervet elősegítette, hogy Windischgrätz március közepétől nem kapott megbízható jelentést a magyar fősereg hollétéről és mozgásairól, ezért szétszórta csapatait, melyeknek így túl nagy arcvonalon kellett volna harcolniuk az összpontosított magyar sereg ellen. Továbbá egy nagyon rosszul felbecsült csapatlétszám is nehezítette a császáriak dolgát: Beniczky Lajos 4-500 fővel bevette a felvidéki Losonc városát, ám a csapatok létszámát a várost védő Almásy Károly császári ezredes 6000 főre tette. Így Windisch-Grätz tartott egy esetleges északi átkarolástól is."
+      ],
+      "video_title": "1848 szeptemberében lemondott a kormány, több minisztere a tárgyalási politika kudarca miatt Batthyány lemondása után az ország egy időre végrehajtó hatalom nélkül maradt.",
+      "video": "https://www.youtube.com/watch?v=hN1BG8bpPlk",
+      "video_body": [
+        "Az utolsó rendi országgyűlés által elfogadott áprilisi törvényeket az uralkodó, V. Ferdinánd király április 11-én szentesítette. Ez fordulópontot jelentett a magyar történelemben, az ország gazdasági-politikai-kormányzási rendszere óriási változáson ment keresztül. Az áprilisi törvények alapján Magyarország csaknem független ország lett. Kimondták Magyarország és Erdély egyesülését. A törvények biztosították a polgári fejlődést, a felzárkózási lehetőséget nyugathoz. Megkezdődött a jobbágyrendszeren és a nemesi kiváltságokon alapuló feudális rendszer felszámolása. A jobbágyfelszabadítást is kitűzték, ennek módját azonban egyelőre nem rendezték.",
+        "Az első népképviseleti országgyűlési választásokat, az áprilisban elfogadott V. törvénycikk alapján, június második felében tartották. A hivatalos megnyitóra július 5-én, Pesten került sor. Az országgyűlés a szabadságharc végéig együtt maradt, bár részben kicserélődött képviselői állománnyal. Az üléseket december 31-éig Pesten tartották. Ezt követően a hadiállapot változása miatt az üléseket Debrecenbe helyezték át.",
+        "Az áprilisi törvények hiányosságai közé tartozott a jobbágyfelszabadítás halogatása és a nemzetiségi kérdés rendezetlensége. A magyar siker hatására a Magyarországon élő nemzetiségekben is feltámadt a nemzeti érzés. 1848-ban már nem elégedtek meg anyanyelvük kisebb-nagyobb használatával. Magukat, mint külön nemzetet akarták elismertetni az ország határain belül. A magyar vezetők azonban erről hallani sem akartak. Szerintük anyanyelvüktől függetlenül országunk minden lakója az egységes magyar nemzet tagja."
+      ],
+      "gallery_title": "Április 10-én újultak ki a harcok, amikor Windisch-Grätz felderítőcsapatokat küld a Pest előtti erők számának meghatározására, azonban ezek nem járnak sikerrel.",
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_m%C3%A1sodik_kom%C3%A1romi_csatA_1849._j%C3%BAlius_2.jpg",
+          "caption": "A két irányból támadó ellenséggel szemben Görgey azt a tervet terjesztette elő, hogy az erőket Komárom térségében kell összpontosítani, és még az orosz csapatokkal való egyesülés előtt külön kell megverni az osztrákokat. Minden szempontból ez lett volna a megfelelő döntés: a bevehetetlen komáromi erődrendszer, az ekkor még külön operáló Habsburg csapatok elleni sikeres fellépés reménye, illetve a stabil hátország, a környék magyar lakosságának támogatása, mind ezt diktálta."
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/1848-49_Batthyany-kormany.jpg/1280px-1848-49_Batthyany-kormany.jpg",
+          "caption": "Március 23-án az országgyűlés felsőtábláján Batthyány Lajos, a március 17-én kinevezett miniszterelnök, kihirdette minisztériumának névsorát. Ezek alapján: Batthyány Lajos elnök, Szemere Bertalan  belügyek, Kossuth Lajos országos pénzügy,  Deák Ferenc igazságszolgáltatás és kegyelem, Mészáros Lázár  honvédelem,  Klauzál Gábor földművelés, ipar és kereskedés, Széchenyi István  közmunka és közlekedésügy, Eötvös József nevelés (majd az átnevezés miatt vallás és közoktatás), Esterházy Pál a Felség személye körüli miniszter"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pilvax_Pest_Preiszler.jpg",
+          "caption": " Petőfi Sándor a Pilvax kávéházba sietett ahol az ifjak összegyűltek és Vasvári Pált és Bulyovszky Gyulát ott találva, Jókai Mór lakására hívta őket, ahol a 12 ponthoz proklamációt szerkesztettek. Petőfi 8 óra körül társaival a Pilvax-kávéházba ment, a kitűzött időre csak hatan jelentek meg (Petőfi, Jókai, Bulyovszky, Sebő, Gaál Ernő és Hamary Dániel)."
+        }
+      ],
+      "tests": [
+        {
+          "title": "Teszt",
+          "questions": [
+            {
+              "question": "Mi lett a sorsa a szabadságharc bukása után Teleki Sándornak?",
+              "answers": [
+                {
+                  "answer": "Elfogták, de sikerült megszöknie",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Kivégezték Pesten",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Besorozták az osztrág hadseregbe",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "10 év várfogságra ítélték",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Kit végeztek ki 1849. október 25-én Aradon?",
+              "answers": [
+                {
+                  "answer": "Kazinczy Lajost",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Nagysándor Józsefet",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Vécsey Károlyt",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Damjanich Jánost",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Milyen származású volt Dembinski Henrik?",
+              "answers": [
+                {
+                  "answer": "lengyel",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "horvát",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "szlovák",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "ukrán",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Milyen származású volt Kiss Ernő",
+              "answers": [
+                {
+                  "answer": "örmény",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "magyar",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "szolvák",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "szerb",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mikor mondta Kossuth: 'A népfelség alapján kívül nincs Szabadság?'",
+              "answers": [
+                {
+                  "answer": "1849. május 5.",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "1848. október 30.",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1848. augusztus 11.",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1859 május 5.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mi történt 1848. szeptember 28-án?",
+              "answers": [
+                {
+                  "answer": "A pesti nép hajóhídon megölte Lamberget",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "A horvátok követelték jogaik kiszélesítését",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "A hatvani 'nyúlvadászat'",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Móri győzelem az osztrákok felett",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Tagja volt-e az Országos Honvédelmi Bizottmánynak Kossuth Lajos?",
+              "answers": [
+                {
+                  "answer": "Igen, ő volt az elnök",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Igen, ő volt az elnökhelyettes",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Igen, ő volt a titkár",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Nem",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Az önvédelmi háború",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jellasics_harcosai_kozott.jpg",
+      "definition": "1848 nyarán az udvar elérkezettnek látta az időt, hogy Magyarországon is visszaállítsa teljhatalmát, a magyar kormány válaszul rohamtempóban szervezte a magyar honvédsereget.",
+      "tags": [
+        "1848",
+        "Jellasics",
+        "Pákozdi csata",
+        "OHB",
+        "Hungarian"
+      ],
+      "body": [
+        "Szeptember 11-én Jellasics 35 000 főnyi seregével átlépte a Drávát, és fegyveres támadást indított a magyar kormány ellen. A magyar sereg folyamatosan visszavonult a túlerő elől, a közvetítőnek ajánlkozó István nádorral pedig Jellasics nem találkozott. A visszavonuló drávai sereg éléről Csány László leváltotta az ingatag hűségű Teleki Ádámot. A magyar sereg létszáma fokozatosan nőtt, de még így is jócskán elmaradt a horvátokétól. Bécsben már szövegezték a kiáltványt Magyarország alávetéséről.",
+        "A magyar kormány a Dunántúlon népfelkelést hirdetett és mozgósította a nemzetőrséget. Kossuth ezzel egyidőben toborzóútra indult az Alföldre (szeptember 24.). A magyar honvédsereg táborába érkezett országgyűlési küldöttek arra kényszerítették Móga János altábornagyot, a vonakodó főparancsnokot, hogy fölvegye a harcot az ellenséggel. Szeptember 29-én Pákozd és Sukoró között a jórészt újoncokból álló magyar sereg visszaverte a közel kétszeres túlerőben lévő horvátok támadását. Jellasics fegyverszünetet kért, amit visszavonulásra használt fel: Győrön át Bécs felé haladva elhagyta az országot. Ezzel kiszolgáltatott helyzetbe hozta a Karl Roth vezette hadműveleti jobbszárnyát: a székesfehérvári polgárok lefegyverezték a hátrahagyott horvát helyőrséget, majd Görgey, Perczel és Csapó Vilmos Ozoránál bekerítette, majd fegyverletételre kényszerítette. A támadás során a horvát inváziós haderő állományának 20%-át elveszítette.",
+        "1848 szeptemberében lemondott a kormány, több minisztere a tárgyalási politika kudarca miatt Batthyány lemondása után az ország egy időre végrehajtó hatalom nélkül maradt. Így egy darabig, bár hivatalosan a kormány lemondott, ideiglenesen még vállalták adminisztratív feladatok elvégzését, az új kormány felállásáig. A végrehajtó hatalmat a szeptember 16-án alapított ideiglenes, majd az országgyűlés határozata alapján véglegesített Országos Honvédelmi Bizottmány (OHB) gyakorolta, amelynek feladata Batthyány védelmi intézkedéseinek vizsgálata és támogatása volt. A testület elnöke Kossuth Lajos volt. Szeptember végére a törvényhatóságokba kormánybiztosok kerültek, és a gazdaság átállt a haditermelésre. A szerbek felkelését nem sikerült elfojtani, a Bánság legfontosabb erődjei Arad és Temesvár kicsúszott a magyar igazgatás alól.",
+        "Október 3-án az uralkodó Lamberg halálhírére (akit Pestre érkezésekor a hajóhídon a felháborodott tömeg meglincselt) feloszlatta a magyar országgyűlést, Jellasicsot pedig Magyarország teljhatalmú királyi biztosává és a magyar fegyveres erők főparancsnokává nevezte ki, mivel későn értesült kínos pákozdi vereségéről.",
+        "Október 6-án ismét forradalom tört ki Bécsben. A lakosság radikális része arra a hírre, hogy az udvari körök Jellasics támogatására a Richter gránátos-zászlóaljat kívánják Magyarország irányába útnak indítani, összecsapásokba keveredett a Hugo von Bredy tábornok, bécsi dandárparancsnok kötelékeivel. Latour gróf hadügyminisztert kalapácsütésekkel és szuronydöfésekkel meggyilkolták, majd egy lámpavasra akasztották. Ezáltal rövid időre mind a császári erők központja, mind Jellasics politikai és katonai támogatottsága megszűnt. A magyar hadsereg azonban még további időt töltött a Lajta mentén, többször is megkísérelve a határ átlépését, ám ettől politikai és katonai megfontolások is visszatartották. Sokak értékelésében nem használta ki a kedvező lehetőséget, és nem vonult Bécs felmentésére. Ehelyett sikeresen megtisztította a Dunántúlt, és elfoglalta a fontosabb várak és az ország legfontosabb erődjeit, Komáromot, Lipótvárat, Eszéket."
+      ],
+      "video_title": " Windisch-Grätz október 20-án érkezett Bécs falai alá, több rohamot is elrendelt a város ellen, amely 31-én került újra a császáriak kezére.",
+      "video": "https://youtu.be/pAIzmSwo0So?list=PLr4fDfX5o_gIVJnCgxah9ZHNn-pelV_Uq",
+      "video_body": [
+        "Kossuth és Görgei 1848 novemberében haditervet dolgozott ki az ország ellenséges támadás idején hatásos védelmét illetően, Görgei javaslatával ellentétben – ami a védelmi erők megerősített állásokba való összpontosítását szorgalmazta – Kossuth azon akarata érvényesült, miszerint az ország minél nagyobb részét meg kell óvni az újoncozás érdekében. Nyugat-Magyarország védelmét ekkor két, egymástól meglehetősen távol elhelyezkedő seregtest látta el, az egyik Görgei Artúr fel-dunai hadserege kb. 28 000 fő és Perczel Mór kb. 10 000 fős serege.",
+        "1848 decemberében Ferdinánd császár helyét Ferenc József foglalta el. Magyar koronázott királynak 1849. ápr.14-ig Ferdinándot tekintették a magyarok (a feliratokat hozzá intézték). Ennek a közjogi kettős hatalomnak a megszüntetésére is szolgált az 'Olmützi alkotmány', amelyben Magyarország tartományként a császári birodalom fennhatósága alá került volna. Az európai forradalmak többségét ekkorra már leverték, és Magyarországon is kezdtek megerősödni a forradalom ellenségei. A császári királyi seregek támadása december elején indult Franz von Schlik altábornagy Galíciából betört a felvidékre, elfoglalta Eperjest, majd december 11-én Budamérnél megverte Pulszky Sándor ezredes csapatait és bevette Kassát. Windischgrätz a főerőkkel (kb. 55 000 emberrel) december közepén lépte át a magyar határt. A Görgei vezette fel-dunai hadsereg dandárjai rövid utóvédharcokat követően Győr felé vonultak vissza, azonban a várost az időjárási viszonyok (a Győr körüli mocsarak és vizek befagytak), továbbá a sáncrendszer kiterjedtsége okán (kb. 80 000 emberrel lehetett volna csak tartani) fel kellett adniuk.",
+        "Kossuth tervei szerint Görgei és Perczel csapatai Buda előtt egyesültek volna, de Perczel Mórnál csatát vesztett, embereinek egyharmada a csatatéren veszett. A vereség után az Országos Honvédelmi Bizottmány a főváros kiürítéséről döntött, a kormányzat Debrecenbe költözött. A haditanács január 2-án a magyar erők tiszántúli összpontosítását határozta el. Az új haditerv szerint feladták a Délvidéket és az ottani csapatokat felhozták a Közép-Tiszához, a Perczel-hadtest Központi mozgó sereg elnevezéssel a Tisza vonalán foglalt helyet, miközben Görgei tábornok fel-dunai hadteste egy északnyugati irányú elterelő hadmozdulatokat hajtott végre. Január végére a magyar csapatok feladták Bácskát és a Bánságot, Kiss Ernő vezette bánsági hadtest is súlyos vereséget szenvedett. Windischgrätz Pest-Buda bevétele után berendezkedett a városban, délen a császári seregek megkezdték előrenyomulásukat Szeged és Arad felé. Görgei elterelő hadműveletei sikeresnek bizonyultak, Windisch-Grätz két hetet vesztegelt, ez elég volt a magyar védelem megszilárdítására. Februárban Kossuth Henryk Dembiński altábornagyot nevezte ki fővezérnek, a február 26–27-i kápolnai csatában a magyar sereg vereséget szenvedett, részben Dembinski hadvezéri alkalmatlansága miatt. Szemere Bertalan közreműködésével ekkor a tisztikar leváltotta őt a fővezéri posztról, majd a Honvédelmi Bizottmány Vetter Antalt nevezte ki a helyére."
+      ],
+      "gallery_title": "Jellasics Mosonnál megállt, hogy bevárja erősítéseit. A gyenge harcértékű horvát népfelkelőket hazaküldte, lovasságát és tüzérségét jelentős számban növelte.",
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/P%C3%A1kozdi_csata.jpg/1920px-P%C3%A1kozdi_csata.jpg",
+          "caption": "A magyar kormány a Dunántúlon népfelkelést hirdetett és mozgósította a nemzetőrséget. Kossuth ezzel egyidőben toborzóútra indult az Alföldre (szeptember 24.). A magyar honvédsereg táborába érkezett országgyűlési küldöttek arra kényszerítették Móga János altábornagyot, a vonakodó főparancsnokot, hogy fölvegye a harcot az ellenséggel. Szeptember 29-én Pákozd és Sukoró között a jórészt újoncokból álló magyar sereg visszaverte a közel kétszeres túlerőben lévő horvátok támadását. Jellasics fegyverszünetet kért, amit visszavonulásra használt fel: Győrön át Bécs felé haladva elhagyta az országot. Ezzel kiszolgáltatott helyzetbe hozta a Karl Roth vezette hadműveleti jobbszárnyát: a székesfehérvári polgárok lefegyverezték a hátrahagyott horvát helyőrséget, majd Görgey, Perczel és Csapó Vilmos Ozoránál bekerítette, majd fegyverletételre kényszerítette. A támadás során a horvát inváziós haderő állományának 20%-át elveszítette."
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Olomouc-Horn%C3%AD_n%C3%A1m%C4%9Bst%C3%AD.JPG/1280px-Olomouc-Horn%C3%AD_n%C3%A1m%C4%9Bst%C3%AD.JPG",
+          "caption": "Az uralkodó Bécsből Olmützbe menekült, október 16-án Alfred Windisch-Grätz herceget nevezte ki valamennyi Itálián kívüli császári-királyi hadsereg főparancsnokává. Windisch-Grätz október 20-án érkezett Bécs falai alá, több rohamot is elrendelt a város ellen, amely 31-én került újra a császáriak kezére."
+        },
+        {
+          "url": "http://mult-kor.hu/image/article/main/.630x1260/35034.jpg",
+          "caption": "Kossuth tervei szerint Görgei és Perczel csapatai Buda előtt egyesültek volna, de Perczel Mórnál csatát vesztett, embereinek egyharmada a csatatéren veszett. A vereség után az Országos Honvédelmi Bizottmány a főváros kiürítéséről döntött, a kormányzat Debrecenbe költözött. A haditanács január 2-án a magyar erők tiszántúli összpontosítását határozta el."
+        }
+      ],
+      "tests": [
+        {
+          "title": "Teszt",
+          "questions": [
+            {
+              "question": "Hova menekült V. Ferdinánd király uralkodó Bébcsből?",
+              "answers": [
+                {
+                  "answer": "Olmützbe",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Pozsonyba",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Erdélybe",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Pákozdra",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mi azaz OHB?",
+              "answers": [
+                {
+                  "answer": "Országos Honvédelmi Bizottmány",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Országos Határvédelmi Bizottmány",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Olmützi Honvédedelem Bizottmánya",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Olmütz és a Habsburg-ház Bizottmánya",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mikor oszlatta fel az uralkodó az országgyűlést?",
+              "answers": [
+                {
+                  "answer": "Október 3-án",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Október 4-én",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Szeptember 24-én",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Szeptember 16-án",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mikor tört ki a bécsi forradalom?",
+              "answers": [
+                {
+                  "answer": "Október 6-án",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Október 20-án",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Október 16-án",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Október 15-én",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Ki hívta össze az agyagfalvi székely nemzetgyűlést?",
+              "answers": [
+                {
+                  "answer": "Berzenczey László",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Kossutl Lajos",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Gábor Áron",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Gál Sándor",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mikor foglalta el Ferdinánd császár helyét Ferenc József?",
+              "answers": [
+                {
+                  "answer": "1848 decemberében",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "1848 októberében",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1849 decemberében",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1848 októberében",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mikor nevezték ki kormányzó elnöknek Kossuth Lajost?",
+              "answers": [
+                {
+                  "answer": "1849. április 14-én",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "1849. április 15-én",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1848. április 14-én",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "1848. április 15-én",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reformkor",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Budapest_bridge_c1850.jpg/1920px-Budapest_bridge_c1850.jpg",
+      "definition": "A 19. század elejére a fejlődésben Nyugat-Európa mintaadó államaihoz (elsősorban Anglia és Franciaország) képest lemaradt magyar társadalomban végbemenő újítási, modernizációs szándéka",
+      "tags": [
+        "Széchenyi István",
+        "Kossuth Lajos",
+        "Nemzeti radikálisok",
+        "Konzervatív ellenzék",
+        "országgyűlési ifjak",
+        "Hungarian"
+      ],
+      "body": [
+        "A reformkor elnevezés a 19. század elejére a fejlődésben Nyugat-Európa mintaadó államaihoz (elsősorban Anglia és Franciaország) képest lemaradt magyar társadalomban végbemenő újítási, modernizációs szándékra utal. A korszak idején számtalan szociális, gazdasági, kulturális vívmány született, elsődlegesen: a jobbágykérdés rendezése, az önálló, modern ipar megteremtése, a Himnusz és egyéb nemzeti összetartozást kifejező költemények, valamint a polgári átalakulás útjában álló akadályok elhárítása. Mindezek alapkövei lettek az öntudatra ébredő nemzet újkori történelmének, s elvezettek a modern, polgári Magyarország megteremtéséhez.",
+        "A nemzeti ébredés. II. József halála után a végrehajtó hatalom a köznemesség befolyása alatt álló megyék kezébe került. Az uralkodó a birodalom érdekeit szem előtt tartó rendeleteit (mintegy hatezret) visszavonta halálos ágyán, a türelmi rendelet, a nem hasznos munkát folytató szerzetesrendek betiltása és a jobbágyrendelet kivételével. Halála után az országon egyfajta eufória lett úrrá, a magyar nyelv, ruházat, zene, tánc új virágkora köszöntött be. A magyar nyelv középiskolai tanítását törvénnyel írták elő, magyar színtársulatok alakultak. S bár a napóleoni háborúk alatt a nemesség érdekegyezés miatt támogatta az uralkodó dinasztiát (a hosszú háborúban anyagilag jól jártak), hamar kiderült, hogy a Habsburg abszolutizmus csak addig partnere a magyarságnak, amíg szüksége van rá. A háborúk lezárása után az udvar pénzrontást hajtott végre, majd a tiltakozó rendi országgyűlést berekesztette, s hosszú évekig össze sem hívta. A modernizáció hívei számára az első lehetőség az 1825-1827-es reformországgyűlésen adódott.",
+        "A reform a gazdaság, a társadalom megváltoztatására, átalakításra irányuló törekvés, melyet rendeletek vagy törvények segítségével valósítanak meg. Magyarországon a művészek és tudósok is jelentős szerepet vállaltak a reformtörekvésekben. Ebben a politikai vitáktól hangos korszakban nagy történelmi személyiségek emelkedtek ki, akik irányt szabtak az eseményeknek. Ez a változásokat hozó, 1830-tól az 1848-as forradalomig tartó történelmi, politikai és művelődéstörténeti időszak volt a reformkor.",
+        "A reformkor első szakaszának legmeghatározóbb személyisége gróf Széchenyi István volt. Az arisztokrata származású Széchenyi életének kezdeti, bohém időszaka után megcsömörlött arisztokrata társainak hedonista gondolkodásmódjától, s nagy lendülettel vetette bele magát az ország modernizálásának folyamatába. Angliai utazásai során szerzett tapasztalatai meghatározóak voltak későbbi tevékenységében. Az 1825–1827-es első reformországgyűlésen birtokai egyéves jövedelmének kamatát ajánlotta fel egy, a magyar nyelvet felkaroló szervezet, a Magyar Tudományos Akadémia megalapítására. Személyes tapasztalatai alapján világosan felismerte, hogy a feudális maradványok, például a nemesi birtok elidegeníthetetlensége a legfőbb gátjai a modernizációnak, ezek felszámolására 1830-as Hitel című munkájában összefüggő reformprogramot adott. A rendkívül népszerű könyvet leghevesebben Dessewffy József támadta a Hitel című munka taglalatja 1831-es kiadványában, melyre Széchenyi a Világ elnevezésű munkájában válaszolt."
+      ],
+      "video_title": "Széchenyi élen járt elméleti munkássága gyakorlati megvalósításában. A Vaskaput hajózhatóvá tette, irányította a Tisza-szabályozás előkészületeit. Kezdeményezte a dunai gőzhajózást, hajógyárat és téli kikötőt létesített.",
+      "video": "https://www.youtube.com/watch?v=sNvjCJxch38",
+      "video_body": [
+        "Széchenyi a Világ elnevezésű munkájában válaszolt. 1831-ben a Felvidéken parasztfelkelés tört ki, amely arra késztette Széchenyit, hogy reformprogramját sűrítve tárja a nyilvánosság elé Stádium című könyvében. Programjának pontjai: hitelképesség, az ősiség eltörlése, a fiscillas (háramlási jog) megszüntetése, jus proprietatis, a birtokbírhatás joga (nem nemes is rendelkezhessen földdel), törvény előtti egyenlőség, törvényes pártvéd, részleges közteherviselés (idomzat szerint, a házi pénztárba - vármegye költségei), vadvízek szabályozása, utak készítése, a belvámok Országgyűlési hatáskörbe tartozzanak, monopóliumok, céhek, hatósági árszabás (limitatio) eltörlése, 1835-től csak a magyar nyelven írott törvények, szerződések legyenek kötelezőek, a Helytartó Tanács hatalmának fenntartása, a birodalmi egység végett, a nyilvánosság (az országgyűlés üléseinek nyilvánossága).",
+        "Széchenyi élen járt elméleti munkássága gyakorlati megvalósításában. A Vaskaput hajózhatóvá tette, irányította a Tisza-szabályozás előkészületeit. Kezdeményezte a dunai gőzhajózást, hajógyárat és téli kikötőt létesített. Az első gőzzel hajtott hengermalom megépíttetése mellett a selyemhernyó-tenyésztést is népszerűsítette. Ő építtette a Lánchidat is. A vasútvonalak létesítését minden erejével előmozdítani igyekezett. Az ipari, közlekedési fejlesztései mellett egyfajta 'civilizátor' szerepét is magára vállalta: meghonosította a lóversenyzést, a cassinót, de még a rendszeres fürdés szokását is. Az 1820-as, 1830-as évek kétségtelenül Széchenyi évei voltak. Hosszútávú programjában szerepelt a jobbágyfelszabadítás is, ám ő ezt lassan, a fejlődéssel együtt képzelte el, ennek a pontos módját nem is fejtette ki."
+      ],
+      "gallery_title": "A reformkor célkitűzéseinek megvalósítása felvetette az ezekhez vezető út, a módszerek megválasztásának kérdését is. A módszerekben, a bécsi udvarral szemben követett reformpolitika kérdésében nem volt egyetértés a reformok mellett elkötelezett jelentős személyiségek között sem.",
+      "gallery": [
+        {
+          "caption": "A reformkor végére megvalósult a felzárkózás Európához, a polgári Magyarország alapjainak lerakása. Az ebben a korszakban megteremtett gazdasági erő, nemzeti érdekegyesítés és a jobbágykérdés rendezése nélkül az ország nem vállalkozhatott volna 1848-1849-es szabadságküzdelmére. Különlegesen kiemelkedő jelentőségű a nemesség kezdeményező szerepe a reformok elindításában és kiváltságaik önkéntes feladása: ez azzal a különleges eredménnyel járt, hogy a jobbágyság nagy tömegei nálunk nem fordultak fegyveresen szembe földesuraikkal szabadságjogaik kivívása érdekében, mint más országokban történt, hanem a nemességgel érdekszövetségben kapcsolódtak be a nemzet ügyének szolgálatába. Ennek igazi jelentősége majd a szabadságharc idején mutatkozik meg: a reformkorban létrehozott ipar, gazdaság és a széles jobbágytömegek támogatása miatt volt Magyarország az egyetlen ország, amely még akkor is képes volt a feudális monarchiákkal szemben támadni és győzni, mikor az 1848-as szabadságküzdelmek többi forradalmi nemzete már régen fegyverletételre kényszerült.",
+          "url": "http://members.iif.hu/visontay/ponticulus/img1/graphics/mta2.jpg"
+        },
+        {
+          "caption": "A reformokat kezdettől fogva a konzervatív feudális ellenzék és az őket támogató bécsi udvar hagyományhű ellenállásával szemben kellett kivívni. A reformmozgalmak legfőbb gátolói a kezdeti időszakban Metternich kormánya és I. Ferenc király voltak. 1835-től Metternich terrorral próbálta megtörni a reformfolyamatokat: Lovassyt, Kossuthot, Wesselényit bebörtönözték. Később, az udvari konzervativizmus kudarca után Dessewffy Aurélgróf, fiatal arisztokrata magukat 'fontolva haladóknak' nevező konzervatív pártot szervezett. Ekkoriban, az 1830-as évek végén az ultrakonzervativizmus már nem volt népszerű, a reformerek sikerei nyomán a 'haladókkal' szemben a 'maradiság' pejoratív jelzővé vált, ebből következett Dessewffy pártjának névválasztása és taktikája is. A reformerek néhány javaslatát kisajátítva és erősen felhígítva igyekezett az ingadozókat megnyerni, s így a reformerek táborát gyengíteni.",
+          "url": "http://cultura.hu/wp-content/uploads/2014/04/reformkor-nok-divat.jpg"
+        },
+        {
+          "caption": "A Kossuth-féle irányvonalat is keveslő nemzeti radikálisok már csak a reformkor végén jutottak szerephez, s meghatározó tevékenységük is inkább már az 1848-as forradalom és szabadságharc megindításához köthető. Azonban e helyt is megemlítendők, mivel ha közvetlen politikai befolyással nem is rendelkeztek, a kor politikusainak az idő haladtával egyre inkább számolniuk kellett velük, akárcsak az elégedetlen jobbágytömegekkel. ",
+          "url": "http://www.teleelettel.hu/files/frontend/events/cover/c3e3a149973778bad8bf0fd5273d7904.jpg"
+        }
+      ],
+      "tests": [
+        {
+          "title": "Teszt",
+          "questions": [
+            {
+              "question": "Ki írta a Kelet népe, nyugaton című művet (1841)?",
+              "answers": [
+                {
+                  "answer": "Fáy András",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Széchenyi István",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Eötvös József",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Szalay László",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Erkel Ferenc szülővárosa:",
+              "answers": [
+                {
+                  "answer": "Gyula",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Pest",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Kolozsvár",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Debrecen",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Mi történt Kossuth Lajossal börtönévei alatt?",
+              "answers": [
+                {
+                  "answer": "Rendszeresen olvasott, és szorgalmasan tanult",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Kétszer próbálkozott szökéssel",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Éhségsztrájkot folytatott",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Többször kapott idegösszeroppanást",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "A nemzeti újság a ... szócsöve volt.",
+              "answers": [
+                {
+                  "answer": "Római katolikus egyház",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Szabadelvűek",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Maradiak",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Centralisták",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Helmeczi Mihály az 1830-as évek elején a ... című lapot szerkesztette.",
+              "answers": [
+                {
+                  "answer": "Jelenkor",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Mindenes Gyűjtemény",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Pesti Divatlap",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Tudományos Gyűjtemény",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "'...nagy szemöldű, barnássárga színű, komor kinézésű ember vagyok.' Ki vagyok?",
+              "answers": [
+                {
+                  "answer": "Széchenyi István",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Deák Ferenc",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Kossuth Lajos",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Metternich",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "Hol nyomtatta ki Wesselényi a Balítéletekről című munkáját?",
+              "answers": [
+                {
+                  "answer": "A cenzúra maitt Lipcsében",
+                  "isCorrect": true
+                },
+                {
+                  "answer": "Bécsben talált technikailag alkalmas nyomdát",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "Saját birtokán, Zsibón",
+                  "isCorrect": false
+                },
+                {
+                  "answer": "A cenzúra miatt titokban, Érden",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

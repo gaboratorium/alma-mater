@@ -1,0 +1,16 @@
+<div zf-modal="" id="edit-profile" class='gb-modal'>
+	<div class="section">
+		<h1>Edit your profile</h1>
+		<img src="img/avatar.png" alt="" class='avatar'>
+		<label for="name">Name:</label>
+		<input type="text" placeholder="{{user.name}}" id="name" ng-model="inputName">
+		<label for="nationality">Country:</label>
+		<select id="nationality" ng-model="inputNationality">
+			<option value="magyar" selected>Hungary</option>
+			<option value="egyéb">Other</option>
+		</select>
+
+		<a ng-click="updateProfile(inputName, inputNationality)" zf-close="" class="success button">Save changes</a>
+		<p><a zf-close="">...or cancel.</a></p>
+	</div>
+</div>

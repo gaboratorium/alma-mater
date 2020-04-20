@@ -1,0 +1,124 @@
+
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Demo version modal -->
+<div ng-include="'templates/modals/new-library.html'"></div>
+<div ng-include="'templates/modals/subscription.html'"></div>
+
+<div class="grid-block section wrap">
+	<div class="grid-block vertical section">
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left title">
+				<h1>Search</h1>
+				<p class='no-margin hide-for-small-only'>Search between libraries, books and chapters!</p>
+			</div>
+			<div class="right">
+
+				<span class="inline-label no-margin">
+					<input type="search" placeholder="What are you looking for?" ng-model="search">
+					<a href="" class="primary button">
+						<span class='hide-for-small-only'>Search</span>
+						<span class='no-margin ion-search show-for-small-only'></span>
+					</a>
+				</span>
+			</div>
+		</div>
+
+		<hr class='no-margin show-for-small-only margin-bottom'>
+		
+		<p class='no-margin show-for-small-only margin-bottom text-align-center'>Search between libraries, books and chapters!</p>
+		<!-- <span class="inline-label show-for-small-only">
+			<input type="search" placeholder="Mit keresel? (pl.: Ady Endre)" ng-model="search">
+			<a href="" class="success button">Keresés</a>
+		</span> -->
+
+		<div class="card" ng-hide="!filteredBooks.length">
+			<div class="card-divider title-bar">
+				<div class="title left">
+					<span ng-show='!search'>Suggested books for you</span>
+					<span ng-show='search'>Results for: '{{search}}'</span>
+				</div>
+				<ul class="right navigation">
+					<li>{{filteredBooks.length}} book<span ng-if="filteredBooks.length>1">s</span></li>
+				</ul>
+				
+			</div>
+			
+			<div class="grid-block grid-block--padding-3 wrap align-center-on-small">
+				<div ng-repeat='book in filteredBooks = (books | filter: search)' class='book-avatar'>
+					<a ui-sref="book({library_id: 0, book_id: book.id})">
+						<img src="img/book.png" alt="{{book.name}}">
+						<span class="title">{{book.name}}</span>
+						<span>{{book.chapters.length}} chapter<span ng-if="book.chapters.length>1" style="display: inline;">s</span></span>
+						<a href="" class="hollow button" zf-open="new-library">Add to library</a>
+
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="card" ng-hide="!filteredLibraries.length">
+			<div class="card-divider title-bar">
+				<div class="title left">
+					<span ng-show='!search'>Suggested libraries for you</span>
+					<span ng-show='search'>Results for: '{{search}}'</span>
+				</div>
+				<ul class="right navigation">
+					<li>{{filteredLibraries.length}} librar<span ng-if="filteredLibraries.length==1">y</span><span ng-if="filteredLibraries.length>1">ies</span></li>
+				</ul>
+				
+			</div>
+			<div class="grid-block grid-block--padding-3 wrap align-center-on-small">
+				<div ng-repeat='library in filteredLibraries = (libraries | filter: search)' class='book-avatar'>
+					<a ui-sref="cafe({id: library.id})">
+						<img src="img/library.png" alt="Library">
+						<span class='title'>{{library.name}}</span>
+						<a ui-sref="profile({id: library.owner.id})" class='author'>{{library.owner.name}}</a>
+						<a href="" class="hollow button" zf-open="subscription">Subscribe</a>
+					</a>
+				</div>
+				<p ng-hide="filteredLibraries.length">Nem találtam a keresésnek megfelelő könyvtárat.</p>
+			</div>
+		</div>
+
+		<div class="card" ng-hide="!filteredChapters.length">
+			<div class="card-divider title-bar">
+				<div class="title left">
+					<span ng-show='!search'>Suggested chapters for you</span>
+					<span ng-show='search'>Results for: '{{search}}'</span>
+				</div>
+				<ul class="right navigation">
+					<li>{{filteredChapters.length}} chapter<span ng-if="filteredChapters.length>1">s</span></li>
+				</ul>
+				
+			</div>
+			<div class="section">
+
+				<ul class='chapters'>
+					<li ng-repeat='chapter in filteredChapters = (chapters | filter: search)'>
+						<a href="#/book/{{book.id}}/chapter/{{chapter.id}}" class='title-bar'>
+							<div class="left title">
+								{{chapter.title}}
+							</div>
+							<div class="right">
+								<span class="ion-android-checkbox-outline"></span>
+							</div>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="card padding" ng-show="!filteredChapters.length && !filteredBooks.length && !filteredLibraries.length">
+			<p class='no-margin'>Couldn't find anything, please try something else.</p>
+		</div>
+		
+	</div>
+
+	<!-- Sidebar -->
+	<div ng-include="'templates/sidebar/sidebar.html'" class='sidebar-wide small-12'></div>
+	
+</div>

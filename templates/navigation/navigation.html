@@ -1,0 +1,31 @@
+<nav>
+	<ul class='side-bar'>
+		<li><a ui-sref="dashboard" current-state='dashboard'><i class="fa fa-tachometer fa-fw c-fa--left" aria-hidden="true"></i></a></li>
+		<li><a ui-sref="search" current-state="search"><i class="fa fa-search fa-fw c-fa--left" aria-hidden="true"></i></a></li>
+		<li><a ui-sref="upload" current-state="upload"><i class="fa fa-cloud-upload fa-fw c-fa--left" aria-hidden="true"></i></a></li>
+		<li><a ui-sref="profile({id: 1})" current-state="profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+		
+		<!-- Chapter Navigation -->
+		<hr list-on-state='chapter'>
+		<li list-on-state='chapter'>
+			<a ng-click="scrollTo('title')">
+				<span class="ion-document-text"></span>
+			</a>
+		</li>
+		<li list-on-state='chapter'>
+			<a ng-click="scrollTo('video')">
+				<span class="ion-ios-videocam"></span>
+			</a>
+		</li>
+		<li list-on-state='chapter'>
+			<a ng-click="scrollTo('gallery')">
+				<span class="ion-images"></span>
+			</a>
+		</li>
+		<li list-on-state='chapter'>
+			<a ng-click="scrollTo('test')">
+				<span class="ion-trophy"></span>
+			</a>
+		</li>
+	</ul>
+</nav>

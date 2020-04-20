@@ -1,0 +1,96 @@
+
+<!-- Navigation -->
+<div ng-include="'templates/navigation/navigation.html'"></div>
+
+<!-- Demo version modal -->
+<div ng-include="'templates/modals/edit-profile.html'"></div>
+<div ng-include="'templates/modals/follow.html'"></div>
+
+<div class="grid-block section wrap">
+	<div class="grid-block vertical section">
+		<div class="title-bar no-padding margin-bottom without-border">
+			<div class="left title" style="white-space:normal">
+				<h1>{{user.name}}</h1>
+				<p class='no-margin hide-for-small-only'>Alma Mater user</p>
+			</div>
+
+			<div class="right hide-for-small-only">
+				<a class="primary button no-margin" zf-open="follow" ng-hide="user.id==1"></span><span class="ion-person-add"></span>Follow</a>
+				<a class="primary button no-margin" zf-open="edit-profile" ng-show="user.id==1"></span><span class="ion-edit"></span>Edit</a>
+			</div>
+
+			<div class="right show-for-small-only">
+				<a class="primary button no-margin" zf-open="demo-version" ng-hide="user.id==1"></span>...</a>
+				<a class="primary button no-margin" zf-open="edit-profile" ng-show="user.id==1"></span><span class="ion-edit"></span>Edit</a>
+			</div>
+
+
+		</div>
+
+		<hr class='no-margin show-for-small-only margin-bottom'>
+		<p class='margin-bottom show-for-small-only text-align-center'>Alma Mater user</p>
+
+		<div class="card section section--double grid-block wrap card--profile">
+
+			<img src="img/avatar.png" alt="" class='avatar medium-7'>
+			<div class='vertical grid-block medium-5'>
+				<h1>{{user.name}}</h1>
+				<ul>
+					<li>Member since: {{user.reg_date}}</li>
+					<li>From: {{user.nationality}}</li>
+					<li>Wisdom plant: {{user.plant}}</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="card-divider title-bar">
+				<div class="title left">
+					Own libraries
+				</div>
+				<ul class="right navigation">
+					<li>{{ownLibraries.length}} librar<span ng-if="ownLibraries.length==1">y</span><span ng-if="ownLibraries.length==0 || ownLibraries.length>1">ies</span></li>
+				</ul>
+
+			</div>
+			<div class="grid-block grid-block--padding-3 wrap align-center-on-small">
+				<div ng-repeat='library in ownLibraries' class='book-avatar'>
+					<a ui-sref="cafe({id: library.id})">
+						<img src="img/library.png" alt="{{library.name}}">
+						<span class='title'>{{library.name}}</span>
+						<a ui-sref="profile({id: library.owner.id})" class='author'>{{library.owner.name}}</a>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-divider title-bar">
+				<div class="title left">
+					Követett könyvtárak
+				</div>
+				<ul class="right navigation">
+					<li>{{followingLibraries.length}} librar<span ng-if="followingLibraries.length==1">y</span><span ng-if="followingLibraries.length==0 || followingLibraries.length>1">ies</span></li>
+				</ul>
+
+			</div>
+			<div class="grid-block grid-block--padding-3 wrap align-center-on-small">
+				<div ng-repeat='library in followingLibraries' class='book-avatar'>
+					<a ui-sref="cafe({id: library.id})">
+						<img src="img/library.png" alt="{{library.name}}">
+						<span class='title'>{{library.name}}</span>
+						<a ui-sref="profile({id: library.owner.id})" class='author'>{{library.owner.name}}</a>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- Sidebar -->
+	<div ng-include="'templates/sidebar/sidebar.html'" class='sidebar-wide small-12'></div>
+
+
+</div>
